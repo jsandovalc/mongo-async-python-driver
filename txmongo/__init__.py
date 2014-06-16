@@ -20,7 +20,7 @@ from   twisted.internet          import defer, reactor, task
 from   twisted.internet.protocol import ReconnectingClientFactory
 from   txmongo.database          import Database
 from   txmongo.protocol          import MongoProtocol, Query
-from   txmongo.connection        import MongoConnection, MongoConnectionPool, lazyMongoConnection, lazyMongoConnectionPool
+from   txmongo.connection        import MongoConnection, MongoConnectionPool, lazyMongoConnection, lazyMongoConnectionPool, ConnectionPool
 
 
 if __name__ == '__main__':
